@@ -1,0 +1,52 @@
+---
+title: "Commandes de base"
+description: "Gérer les différentes commandes."
+---
+
+Les commandes s'executent dans le **chat**.
+
+<Tip>
+  Les arguments notés \<argument\> sont obligatoires, ceux notés [\<argument\>] sont optionnels.
+</Tip>
+
+## Navigation
+
+- `/spawn` permet de se téléporer au centre du serveur.
+- `/warplist` et `/warp <nom>` permettent de se téléporter aux différents points définis par les administrateurs. Ce sont souvent des points stratégiques.
+- `/rtp` permet de se téléporter dans une zone aléatoire, en dehors de la zone protégée du spawn.
+- `/tpa <joueur>` envoie une demande de téléportation à un joueur. Tu sera téléporté à ce joueur.
+- `/tphere <joueur>` envoie une invitation de téléportation à un joueur. Le joueur sera téléporté à toi.
+
+## Homes
+
+Un **home** est un emplacement défini par le joueur, auquel il pourra se téléporter quand il le souhaite.
+
+- `/sethome [<nom>]` défini un home. Si aucun argument n'est spécifié, il s'agira de ton home principal.
+- `/home [<nom>]` défini un home. Sans argument, tu sera téléporté à ton home principal.
+- `/homelist` affiche la liste de tes homes. Un menu s'ouvre pour pouvoir configurer ses homes plus facilement.
+- `/delhome [<nom>]` supprime un home.
+
+## Economie
+
+Les **CozyCoins** sont la monnaie principale du serveur.
+
+<Note>
+  Il y a plusieurs alias à `/money` comme `/coins`, `/cozycoins`, `/cc`...
+</Note>
+
+- `/money` affiche le montant de votre solde actuel.
+- `/pay <joueur> <montant>` envoie des CozyCoins à un joueur.
+- `/baltop` `/balancetop` `/money top` affichent le top 10 des joueurs possédant le plus de CozyCoins.
+
+## Claims
+
+- `/claim` permet de protéger une zone. Si la zone est déjà protégée, le menu de configuration s'ouvre (`/claim settings`).
+- `/unlcaim` supprime la zone protégée.
+- `/claims` affiche la liste des claims.
+- `/claim map` affiche une carte permettant de voir les différents zones protégées et libres.
+- `/claim autoaddchunk` protège automatiquement les chunks dans lesquelles tu te déplaces pour agrandir la zone de ton claim principal.
+- `/claim autodelchunk` l'inverse de `/claim autoaddchunk`.
+- `/claim add <joueur>` autorise un joueur à effectuer des actions dans ton claim.
+- `/claim remove <joueur>` l'inverse de `/claim add`.
+- `/claim owner <joueur>` change le propriétaire du claim.
+- `/claim setdesc <description>` change la description de ton claim.

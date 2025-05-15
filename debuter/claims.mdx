@@ -1,0 +1,39 @@
+---
+title: "Protéger une zone"
+description: "Apprendre à protéger une zone"
+---
+
+Par défaut, tout le monde peut poser ou casser des blocs dans le monde. Si tu souhaites protéger une zone, il faudra **<Tooltip tip="Zone protégée">claim</Tooltip>** cette zone.
+
+Un claim protège l'ensembre du **<Tooltip tip="Zone de 16x16 blocs allant du sol au ciel">chunk</Tooltip>** dans lequel tu te trouves. Tu peux afficher les chunks en appuyant sur `F3 + G`.
+
+<Card
+  title="Qu'est-ce ce qu'un chunk ?"
+  icon="circle-question"
+  img="/images/chunk.png"
+  horizontal={true}
+>
+  Un chunk est un segment d'un monde de 16 x 16 blocs. Les chunks sont la
+  méthode utilisée par le jeu afin de diviser les cartes infinies. Source:
+  [minecraft.wiki](https://fr.minecraft.wiki/w/Chunk).
+</Card>
+
+## Comment claim une zone ?
+
+<Steps>
+  <Step title="Trouver un emplacement libre">
+    Déplace toi dans le monde, ou utilise la commande `/rtp` pour trouver une
+    zone libre. Tu peux utiliser `/claim map` pour t'assurer qu'aucune zone
+    n'est claim aux alentours.
+  </Step>
+  <Step title="Créer un claim">
+    Utilise `/claim` pour protéger le chunk dans lequel tu te trouves.
+  </Step>
+  <Step title="Ajouter des membres">
+    `/claim add <joueur>` pour inviter un joueur à rejoindre ton claim.
+  </Step>
+  <Step title="Configurer les permissions">
+    Effectue `/claim settings` pour ouvrir les options de ton claim. Tu pourra y
+    gerer les **<Tooltip tip="Permissions">flags</Tooltip>**. Dans les options de ton claim, tu peux gérer les permissions des membres, invités, et joueurs.
+  </Step>
+</Steps>
